@@ -1,0 +1,46 @@
+<h1>Register</h1>
+<?php if ($this->success): ?>
+    <p>Your account has been created!</p>
+<?php else: ?>
+    <form method="post" enctype="multipart/form-data">
+        <ol>
+            <li>
+                <label>
+                    First name:
+                    <input type="text" name="first" />
+                    <?php echo isset($this->errors["first"]) ? $this->errors["first"] : ""; ?>
+                </label>
+            </li>
+            <li>
+                <label>
+                    Last name:
+                    <input type="text" name="last" />
+                    <?php echo isset($this->errors["last"]) ? $this->errors["last"] : ""; ?>
+                </label>
+            </li>    
+            <li>
+                <label>
+                    Email:
+                    <input type="text" name="email" />
+                    <?php echo isset($this->errors["email"]) ? $this->errors["email"] : ""; ?>
+                </label>
+            </li>
+            <li>
+                <label>
+                    Password:
+                    <input type="password" name="password" />
+                    <?php echo isset($this->errors["password"]) ? $this->errors["password"] : ""; ?>
+                </label>
+            </li>
+            <li>
+                <label>
+                    Photo:
+                    <input type="file" name="photo" />
+                </label>
+            </li>
+            <li>
+                <input type="submit" name="save" value="register" />
+            </li>
+        </ol>
+    </form>
+<?php endif; ?>

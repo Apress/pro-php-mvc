@@ -1,0 +1,40 @@
+<h1>Settings</h1>
+<?php if ($this->success): ?>
+    Your account has been updated!
+<?php else: ?>
+    <form method="post" enctype="multipart/form-data">
+        <ol>
+            <li>
+                <label>
+                    First name:
+                    <input type="text" name="first" value="<?php echo $this->user->first; ?>" />
+                    <?php echo isset($this->errors["first"]) ? $this->errors["first"] : ""; ?>
+                </label>
+            </li>
+            <li>
+                <label>
+                    Last name:
+                    <input type="text" name="last" value="<?php echo $this->user->last; ?>" />
+                    <?php echo isset($this->errors["last"]) ? $this->errors["last"] : ""; ?>
+                </label>
+            </li>    
+            <li>
+                <label>
+                    Email:
+                    <input type="text" name="email" value="<?php echo $this->user->email; ?>" />
+                    <?php echo isset($this->errors["email"]) ? $this->errors["email"] : ""; ?>
+                </label>
+            </li>
+            <li>
+                <label>
+                    Password:
+                    <input type="password" name="password" value="<?php echo $this->user->password; ?>" />
+                    <?php echo isset($this->errors["password"]) ? $this->errors["password"] : ""; ?>
+                </label>
+            </li>
+            <li>
+                <input type="submit" name="save" value="save" />
+            </li>
+        </ol>
+    </form>
+<?php endif; ?>

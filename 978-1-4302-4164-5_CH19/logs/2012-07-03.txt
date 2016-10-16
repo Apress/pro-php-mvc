@@ -1,0 +1,51 @@
+[2012-07-03 11:59:14]framework.configuration.initialize.before: ini
+[2012-07-03 11:59:14]framework.configuration.initialize.after: ini
+[2012-07-03 11:59:14]framework.database.initialize.before: 
+[2012-07-03 11:59:14]framework.database.initialize.after: mysql
+[2012-07-03 11:59:14]framework.cache.initialize.before: 
+[2012-07-03 11:59:14]framework.cache.initialize.after: memcached
+[2012-07-03 11:59:14]framework.session.initialize.before: 
+[2012-07-03 11:59:14]framework.session.initialize.after: server
+[2012-07-03 11:59:14]framework.router.dispatch.before: profile
+[2012-07-03 11:59:14]framework.router.dispatch.after: profile, users, profile
+[2012-07-03 11:59:14]framework.controller.construct.before: Users
+[2012-07-03 11:59:14]framework.view.construct.before: /Users/christopher/Source/chrispitt/prophpmvc-sourcecode/978-1-4302-4164-5_CH19/application/views/layouts/standard.html
+[2012-07-03 11:59:14]framework.view.construct.after: /Users/christopher/Source/chrispitt/prophpmvc-sourcecode/978-1-4302-4164-5_CH19/application/views/layouts/standard.html
+[2012-07-03 11:59:14]framework.view.construct.before: /Users/christopher/Source/chrispitt/prophpmvc-sourcecode/978-1-4302-4164-5_CH19/application/views/users/profile.html
+[2012-07-03 11:59:14]framework.view.construct.after: /Users/christopher/Source/chrispitt/prophpmvc-sourcecode/978-1-4302-4164-5_CH19/application/views/users/profile.html
+[2012-07-03 11:59:14]framework.controller.construct.after: Users
+Average: 0.0008304375, Longest: 0.002568, Shortest: 8.2E-5, Total: 0.015491
+[2012-07-03 11:59:14]framework.configuration.initialize.before: ini
+[2012-07-03 11:59:14]framework.configuration.initialize.after: ini
+[2012-07-03 11:59:14]framework.database.initialize.before: 
+[2012-07-03 11:59:14]framework.database.initialize.after: mysql
+[2012-07-03 11:59:14]framework.cache.initialize.before: 
+[2012-07-03 11:59:14]framework.cache.initialize.after: memcached
+[2012-07-03 11:59:14]framework.session.initialize.before: 
+[2012-07-03 11:59:14]framework.session.initialize.after: server
+[2012-07-03 11:59:14]framework.router.dispatch.before: fonts/LuxiSans
+[2012-07-03 11:59:14]framework.router.dispatch.after: fonts/LuxiSans, files, fonts
+[2012-07-03 11:59:14]framework.controller.construct.before: Files
+[2012-07-03 11:59:14]framework.view.construct.before: /Users/christopher/Source/chrispitt/prophpmvc-sourcecode/978-1-4302-4164-5_CH19/application/views/layouts/standard.html
+[2012-07-03 11:59:14]framework.view.construct.after: /Users/christopher/Source/chrispitt/prophpmvc-sourcecode/978-1-4302-4164-5_CH19/application/views/layouts/standard.html
+[2012-07-03 11:59:14]framework.view.construct.before: /Users/christopher/Source/chrispitt/prophpmvc-sourcecode/978-1-4302-4164-5_CH19/application/views/files/fonts.html
+[2012-07-03 11:59:14]framework.view.construct.after: /Users/christopher/Source/chrispitt/prophpmvc-sourcecode/978-1-4302-4164-5_CH19/application/views/files/fonts.html
+[2012-07-03 11:59:14]framework.controller.construct.after: Files
+Average: 0.000847875, Longest: 0.002979, Shortest: 7.9E-5, Total: 0.017252
+[2012-07-03 11:59:14]framework.configuration.initialize.before: ini
+[2012-07-03 11:59:14]framework.configuration.initialize.after: ini
+[2012-07-03 11:59:14]framework.database.initialize.before: 
+[2012-07-03 11:59:14]framework.database.initialize.after: mysql
+[2012-07-03 11:59:14]framework.cache.initialize.before: 
+[2012-07-03 11:59:14]framework.cache.initialize.after: memcached
+[2012-07-03 11:59:14]framework.session.initialize.before: 
+[2012-07-03 11:59:14]framework.session.initialize.after: server
+[2012-07-03 11:59:14]framework.router.dispatch.before: thumbnails/1
+[2012-07-03 11:59:14]framework.router.dispatch.after: thumbnails/1, files, thumbnails
+[2012-07-03 11:59:14]framework.controller.construct.before: Files
+[2012-07-03 11:59:14]framework.view.construct.before: /Users/christopher/Source/chrispitt/prophpmvc-sourcecode/978-1-4302-4164-5_CH19/application/views/layouts/standard.html
+[2012-07-03 11:59:14]framework.view.construct.after: /Users/christopher/Source/chrispitt/prophpmvc-sourcecode/978-1-4302-4164-5_CH19/application/views/layouts/standard.html
+[2012-07-03 11:59:14]framework.view.construct.before: /Users/christopher/Source/chrispitt/prophpmvc-sourcecode/978-1-4302-4164-5_CH19/application/views/files/thumbnails.html
+[2012-07-03 11:59:14]framework.view.construct.after: /Users/christopher/Source/chrispitt/prophpmvc-sourcecode/978-1-4302-4164-5_CH19/application/views/files/thumbnails.html
+[2012-07-03 11:59:14]framework.controller.construct.after: Files
+Average: 0.002099, Longest: 0.019998, Shortest: 6.4E-5, Total: 0.043485

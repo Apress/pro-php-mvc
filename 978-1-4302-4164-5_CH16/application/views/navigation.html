@@ -1,0 +1,10 @@
+<a href="/">home</a>
+{if (isset($user))}
+    <a href="/users/profile.html">profile</a>
+    <a href="/users/settings.html">settings</a>
+    <a href="/users/logout.html">logout</a>
+{/if}
+{else}
+    <a href="/users/register.html">register</a>
+    <a href="/users/login.html">login</a>
+{/else}
